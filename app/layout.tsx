@@ -10,7 +10,26 @@ export const metadata: Metadata = {
   authors: [{ name: 'EcoSort AI Student Team' }],
   icons: {
     icon: '/favicon.ico',
-  }
+  },
+  openGraph: {
+    title: 'EcoSort AI – AI-Powered Waste Segregation & Sustainability Assistant',
+    description: 'AI-Powered waste identification, recyclability assessment, and disposal assistant built for the 1M1B AI for Sustainability Virtual Internship with IBM SkillsBuild & AICTE.',
+    type: 'website',
+    images: [
+      {
+        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd71vrYZ6XXjP2mmbu0puaoULjq3OBojsQHE8nMNPxKA&s=10',
+        width: 1200,
+        height: 630,
+        alt: 'EcoSort AI - AI-Powered Waste Segregation & Sustainability Assistant',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'EcoSort AI – AI-Powered Waste Segregation & Sustainability Assistant',
+    description: 'AI-Powered waste identification, recyclability assessment, and disposal assistant built for the 1M1B AI for Sustainability Virtual Internship with IBM SkillsBuild & AICTE.',
+    images: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd71vrYZ6XXjP2mmbu0puaoULjq3OBojsQHE8nMNPxKA&s=10'],
+  },
 };
 
 export default function RootLayout({
